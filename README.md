@@ -1,2 +1,2 @@
 # Coders-coffeehouse
-Sample website for a coffeehouse
+Institute of Coding Sample website for a coffeehouse
