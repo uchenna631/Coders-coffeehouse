@@ -13,7 +13,7 @@
 			color: brown;
 		}
 		
-		p {
+		header > p {
 			color: white;
 		}
 
@@ -37,11 +37,41 @@
 			background-color: chocolate;
 		}
 
-		/* Add an type selector and pseudo-class to this code
-		declaration that targets only anchor elements that are hovered over with a mouse. */
 		a:hover {
 			text-decoration: none;
 			color: chocolate;
+		}
+
+		footer {
+			background-color: #6f4e37;
+			padding: 1em;
+			text-align: center;
+		}
+
+		/* 
+		Add a child selector to this css declaration to target only 
+		<span> elements that are children of the <footer> 
+		*/
+		 footer>span{
+			color: silver;
+		}
+
+		/* 
+		Add a child selector this css declaration to target only 
+		<a> elements that are children of the <footer> 
+		*/
+		 footer>a{
+			color: beige;
+			text-decoration: none;
+			padding: 0 15px;
+		}
+
+		/* 
+		Add a child selector this css declaration to target only 
+		<p> elements that are children of the <footer> 
+		*/
+		 footer>p{
+			color: silver;
 		}
 		
     
@@ -172,7 +202,9 @@
 
 
 	<footer>
+
 		<span>Find us on:</span>
+
 		<a href="https://www.facebook.com" target="_blank" rel="noopener" aria-label="Find us on Facebook (link opens in a new tab)">Facebook</a>
 		<a href="https://www.instagram.com" target="_blank" rel="noopener" aria-label="Find us on Instagram (link opens in a new tab)">Instagram</a>
 		<a href="https://www.twitter.com" target="_blank" rel="noopener" aria-label="Find us on Twitter (link opens in a new tab)">Twitter</a>
